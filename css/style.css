@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url("images/bg.jpeg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  padding: auto;
+  color: #0059fd;
+}
+
+h2{
+  font-size: 2em;
+  padding: auto;
+  color: #0059fd;
+}
+
+.assignments ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;     
+  text-align: center;
+  width: fit-content;
+}
+
+.assignments ul li {
+  margin: 10px 0;
+}
+
+.assignments ul li a {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.assignments ul li a:hover {
+  color: #00509e;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #777;
+  margin-top: auto;
+}
+
+.description {
+  text-align: center;
+  margin: 20px;
+  width: 500px; 
+}
+
+#sketch-container{
+  margin: 20px; 
+}
+
+.container {
+    max-width: 800px;  /* or whatever width you prefer */
+    margin: 0 auto;    /* this centers the container */
+    padding: 0 20px;   /* adds some space on the sides */
+}
+
+footer {
+    max-width: 800px;  /* match the container width */
+    margin: 0 auto;    /* center the footer as well */
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.dead-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
